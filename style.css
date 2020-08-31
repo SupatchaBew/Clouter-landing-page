@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 12px;
+}
+
 body {
   background-color: #012333;
 }
@@ -270,6 +274,10 @@ nav {
 }
 
 @media (min-width: 765px) {
+  html {
+    font-size: 16px;
+  }
+
   .nav-links {
     display: flex;
   }
