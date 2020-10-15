@@ -1,3 +1,11 @@
+const burgurMenu = document.querySelector('.burger-menu');
+const navLinks = document.querySelector('.nav-links');
+
+burgurMenu.addEventListener('click', () => {
+  navLinks.classList.toggle('open');
+});
+
+
 const carouselSlide = document.querySelector('.carousel-slide');
 const carouselContent = document.querySelectorAll('.project-overview');
 
