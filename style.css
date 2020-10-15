@@ -44,8 +44,10 @@ h3 {
   margin-top: 3vh;
 }
 
-input {
+input, label {
   display: block;
+  justify-content: start;
+  text-align: start;
 }
 
 header {
@@ -282,10 +284,10 @@ nav {
   border-style: solid;
   border-color: #3E3E3E;
   color: #3E3E3E;
-  border-width: 2px;
+  border-width: 1px;
   width: 100%;
   height: auto;
-  margin: 0.8em auto;
+  margin: 0.7em auto 1.5em;
   padding: 1em;
 }
 
@@ -396,7 +398,7 @@ nav {
   }
 
   .contact-us {
-    max-width: 80%;
+    max-width: 40%;
     justify-content: space-around;
     align-items: stretch;
     margin: 5em auto;
